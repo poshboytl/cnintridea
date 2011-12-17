@@ -8,7 +8,7 @@
 
 ### 文章模板 ###
 
-** Octopress 使用Rake task来生成，在cnintridea中使用用thor **
+**Octopress 使用Rake task来生成，在cnintridea中使用thor**
 
 #### 生成博文 ####
 
@@ -37,7 +37,7 @@
 
     rake watch
 
-然后使用pow, nginx等来预览public下生成网站。
+然后使用pow, nginx等来预览public下生成的静态网站。
 
 如果页面不刷新，尝试退出preview或watch，然后手动重新生成:
 
@@ -54,7 +54,7 @@
 
 keyword用来匹配文件名，除了你选择的文章，其它都会移到其它文件夹。
 
-记得提交到把他们话回来:
+记得提交前把他们移回来:
 
     thor post:integrate
 
