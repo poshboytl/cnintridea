@@ -1,0 +1,8 @@
+---
+---
+User-agent: *
+sitemap: {{root_url}}/sitemap.xml
+Disallow: /400.html
+Disallow: /50x.html
+Disallow: /drafts/
+Disallow: /google*
