@@ -1,3 +1,33 @@
+风格指南
+--------
+
+### 文章结构 ###
+
+-   以markdown二级标题(`____`或者`## title ###`)开始，一级标题预留给layouts使用。
+-   文章很长，可以在第一个二级标题前加些段落简要介绍文章的内容，并用`<!-- more
+    -->`和下面的详细内容分隔开。
+-   建议在开头处配上一张小图。
+
+### 图片和附件 ###
+
+-   使用 `{% img %}` 来插入图片 [ImageTag](http://octopress.org/docs/plugins/image-tag/)
+-   图片和附件放入gallery文件夹
+-   一篇文章需要使用很多图片的话，在gallery下建立个子目录，再文章的YAML中用
+    gallery属性指定这个目录，然后使用`{% gimg %}`来插入图片。参数和`img`相同，只
+    是不用重复输入前缀。参考
+    `source/posts/2011-07-11-the-docks-of-intridea-east.markdown`.
+-   大文件(比如 >1M)，放到外部服务(文件分享服务，图床)，不要放到git repo里
+
+### 代码 ###
+
+-   使用fenced code block来插入代码
+-   分享文件可以用gist或者include本地文件(加到git中)
+-   详细参考 [Sharing Code](http://octopress.org/docs/blogging/code/)
+
+### 活用插件 ###
+
+[Octopress Plugins](http://octopress.org/docs/blogging/plugins/)
+
 快速发博
 --------
 
@@ -68,36 +98,6 @@ keyword用来匹配文件名，除了你选择的文章，其它都会移到其�
 -   `comment: false` 禁用评论
 -   `sharing: false` 不显示文章底部的分享按钮
 -   `gallery`: 为`{% gimg %}`指定前缀，参考下面*图片和附件*.
-
-风格指南
---------
-
-### 文章结构 ###
-
--   以markdown二级标题(`____`或者`## title ###`)开始，一级标题预留给layouts使用。
--   文章很长，可以在第一个二级标题前加些段落简要介绍文章的内容，并用`<!-- more
-    -->`和下面的详细内容分隔开。
--   建议在开头处配上一张小图。
-
-### 图片和附件 ###
-
--   使用 `{% img %}` 来插入图片 [ImageTag](http://octopress.org/docs/plugins/image-tag/)
--   图片和附件放入gallery文件夹
--   一篇文章需要使用很多图片的话，在gallery下建立个子目录，再文章的YAML中用
-    gallery属性指定这个目录，然后使用`{% gimg %}`来插入图片。参数和`img`相同，只
-    是不用重复输入前缀。参考
-    `source/posts/2011-07-11-the-docks-of-intridea-east.markdown`.
--   大文件(比如 >1M)，放到外部服务(文件分享服务，图床)，不要放到git repo里
-
-### 代码 ###
-
--   使用fenced code block来插入代码
--   分享文件可以用gist或者include本地文件(加到git中)
--   详细参考 [Sharing Code](http://octopress.org/docs/blogging/code/)
-
-### 活用插件 ###
-
-[Octopress Plugins](http://octopress.org/docs/blogging/plugins/)
 
 License
 -------
