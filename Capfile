@@ -22,8 +22,9 @@ server "cn.intridea.com", :app
 
 namespace :deploy do
   task :compile do
-    run "cd #{latest_release} && bundle exec rake generate"
+    run "cd #{current_release} && bundle exec rake generate"
   end
+
   desc <<-DESC
     Present a maintenance page to visitors. Disables your application's web \
     interface by writing a "maintenance.html" file to each web server. The \
