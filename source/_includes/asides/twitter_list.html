@@ -1,0 +1,19 @@
+{% if site.twitter_list_owner && site.twitter_list_slug %}
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterListFeed("{{site.twitter_list_owner}}", "{{site.twitter_list_slug}}", {{site.twitter_list_tweet_count}}, {{site.twitter_list_include_retweets}});
+    });
+  </script>
+  <script src="{{ root_url }}/javascripts/twitter_list.js" type="text/javascript"> </script>
+  {% if site.twitter_list_follow_button %}
+    <a href="http://twitter.com/{{ site.twitter_list_owner }}/{{site.twitter_list_slug}}" class="twitter-follow-button">Follow list {{ site.twitter_list_slug }}</a>
+  {% else %}
+    <p>Follow list <a href="http://twitter.com/{{site.twitter_list_owner}}/{{site.twitter_list_slug}}">{{ site.twitter_list_slug }}</a></p>
+  {% endif %}
+</section>
+{% endif %}
