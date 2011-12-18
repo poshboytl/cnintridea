@@ -25,7 +25,8 @@ title: #{title}
 author: #{options[:author]}
 layout: post
 gallery: #{creation_date}-#{slug}
-comment: true
+comments: true
+sharing: true
 categories:
 ---
 MD

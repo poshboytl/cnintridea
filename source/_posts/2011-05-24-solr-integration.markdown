@@ -3,6 +3,8 @@ title: 全文索引与Solr集成
 author: Dexter Deng
 layout: post
 date: 2011-05-24 17:35
+comments: true
+sharing: true
 categories:
   - Rails
   - Solr

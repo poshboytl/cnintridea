@@ -4,6 +4,7 @@ author: Dingding Ye
 layout: post
 date: 2011-07-11 17:35
 comments: true
+sharing: true
 gallery: 2011-07-11-the-docks-of-intridea-east
 categories:
   - Dock

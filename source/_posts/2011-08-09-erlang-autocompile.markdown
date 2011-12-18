@@ -4,6 +4,7 @@ author: Youcai Qian
 layout: post
 date: 2011-08-09 17:35
 comments: true
+sharing: true
 categories:
   - Erlang
 ---

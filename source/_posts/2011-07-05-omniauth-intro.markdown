@@ -3,6 +3,8 @@ title: OmniAuth, 昨天今天明天
 author: Terry Tai
 layout: post
 date: 2011-07-05 17:35
+comments: true
+sharing: true
 categories:
   - Ruby
   - Authentication

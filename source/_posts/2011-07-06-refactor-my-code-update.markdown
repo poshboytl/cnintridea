@@ -4,6 +4,7 @@ author: Andy Wang
 layout: post
 date: 2011-07-06 17:35
 comments: true
+sharing: true
 categories:
   - Refactor 
   - Rails

@@ -4,6 +4,7 @@ author: Ian Yang
 layout: post
 date: 2011-05-16 17:35
 comments: true
+sharing: true
 gallery: 2011-05-16-nanoc-intro
 categories:
   - Ruby
