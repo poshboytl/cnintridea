@@ -8,6 +8,9 @@ gallery: 2011-12-19-integrate-hubot-with-hudson-ci
 comments: true
 sharing: true
 categories:
+  - Hubot
+  - CoffeeScript
+  - Hudson
 ---
 
 故事背景：
@@ -31,6 +34,8 @@ categories:
 为了更好的“调戏”mm并且提高我们的工作效率，再加上对 Hubot 以及 [CoffeeScript][]（ Hubot 是由 [CoffeeScript][] with [Node][] 写的）的好奇。我决定再为我们的mm加一个新功能。就是和我们的 [Hudson CI][] 服务器做一些集成。
 
 主要要达到的效果是，我们能从irc里让mm就告诉我们现在 CI server 的状况。并且可以很方便通过mm触发我们的build。如图：
+
+<!--more-->
 
 {% img http://cl.ly/2k1h2z2y3A1X1S423Q0k/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202011-12-19%20%E4%B8%8A%E5%8D%881.54.17.png 列出项目状态 %}
 
