@@ -13,8 +13,6 @@ categories:
   - Hudson
 ---
 
-故事背景：
---------
 [Github]: http://github.com/
 [Hubot]: http://hubot.github.com/
 [Intridea]: http://intridea.com/
